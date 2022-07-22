@@ -10,7 +10,21 @@
 </head>
 <body>
     
-    <h2>make some magic here!!</h2>
+    <div id="header">
+      <h2 id="title">make some magic here!!</h2>
+    </div>
+  
+  <form  id="search">
+      <textarea  id="searchtext" placeholder="Message"></textarea>
+      <input id="query" type="text" placeholder="Search Words">
+      <input  id="newwords" type="text" placeholder="Redact with">
+    <div class="btnContainer">
+      <button id="btn" type="button" >Redact Now</btn>
+    </div>
+    </form>
+    <div id="searchedwords"></div>
+    <div id="matchedwords"></div>
+    <div id="scrambledwords"></div>
 
     <!-- // ============= EEND DO NOT EDIT ============== // -->
     <script src="index.mjs" type="module"></script>
