@@ -4,27 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
-
+    <title>Redactr</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
     <div id="header">
-      <h2 id="title">make some magic here!!</h2>
+      <div class='logoContainer'>
+        <img src='images/schoollogo.png' alt='AltSchool Logo' />
+      </div>
+      <h2 id="title">Circle 81 Redactr App</h2>
     </div>
   
   <form  id="search">
       <textarea  id="searchtext" placeholder="Message"></textarea>
       <input id="query" type="text" placeholder="Search Words">
       <input  id="newwords" type="text" placeholder="Redact with">
-    <div class="btnContainer">
-      <button id="btn" type="button" >Redact Now</btn>
-    </div>
-    </form>
-    <div id="searchedwords"></div>
-    <div id="matchedwords"></div>
-    <div id="scrambledwords"></div>
+      <div class="btnContainer">
+        <button id="btn" type="button">Redact Now</button> 
+      </div>
+  </form>
+  <ul id="total">
+    <li id="searchedwords"></li>
+    <li id="matchedwords"></li>
+  </ul>
+    
+
+  <footer id='footer'>May the Force be with us. Circle 81 Team &copy;2022</footer>
 
     <!-- // ============= EEND DO NOT EDIT ============== // -->
     <script src="index.mjs" type="module"></script>
